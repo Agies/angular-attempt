@@ -22,6 +22,10 @@ footer
     z-index: 1030;
 }
 
+.km-flat, .km-flat .km-navbar, .km-flat .km-detail, .km-flat .km-content {
+    background-color: white;
+}
+
 .content
 {
     padding-top: 52px;
@@ -39,4 +43,44 @@ form input.k-button
 {
     width: 100%;
     margin: 5px 0;
+}
+
+input.ng-invalid.ng-dirty,
+input.ng-invalid.submitted
+{
+    background-color: #B2655A;
+    color: black;
+}
+
+.km-flat .km-rowinsert, 
+.km-flat .km-state-active, 
+.km-flat .km-scroller-pull, 
+.km-flat .km-loader:before, 
+.km-flat .k-slider-selection, 
+.km-flat .km-touch-scrollbar, 
+.km-flat .km-pages 
+.km-current-page, 
+.km-flat .k-slider .k-draghandle, .km-flat .k-slider .k-draghandle:hover, 
+.km-flat .km-tabstrip .km-state-active, .km-flat .km-scroller-refresh.km-load-more, 
+.km-flat .km-popup .k-state-hover, 
+.km-flat .km-popup .k-state-focused, .km-flat .km-popup .k-state-selected, .km-flat .km-actionsheet > li > a:active, 
+.km-flat .km-actionsheet > li > a:hover, .km-flat li.km-state-active .km-listview-link, 
+.km-flat li.km-state-active .km-listview-label, 
+.km-flat .km-listview-label input[type=radio]:checked, 
+.km-flat .km-listview-label input[type=checkbox]:checked,
+.k-button
+{
+    background: #929FB2;
+}
+
+.k-button,
+.k-textbox
+{
+    border-width: 0;
+    border-radius: 0;
+    height: 2.13em;
+}
+
+.k-button:hover {
+    background: #9DAFCC;
 }

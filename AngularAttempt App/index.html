@@ -30,24 +30,17 @@
         <header>
             <div kendo-mobile-nav-bar>
                 <div kendo-mobile-view-title>{{ master.viewTitle }}</div>
-                <button kendo-mobile-button data-align="left" >Back</button>
+                <!--<button kendo-mobile-button data-align="left" >Back</button>-->
             </div>
         </header>
         <div class="content">
             <div class="app-padding">
-                <h2>Welcome to </h2>
-                <h1>Perfect Present</h1>
-                <form name="form" class="signing-form" >
-                    <input class="k-textbox" type="text" placeholder="Username" ng-model="signin.username" />
-                    <input class="k-textbox" type="password" placeholder="password" ng-model="signin.password" />
-                    <input class="k-button" type="submit" value="Sign In" />
-                    <span>{{signin.usernames}}</span>
-                </form>
+                <div ng-view></div>
             </div>
         </div>
         <footer>
             <div kendo-mobile-tab-strip="tabStrip">
-                <a href="#" data-icon="home">Visit</a>
+                <a href="https://github.com/Agies/angular-attempt/wiki" data-icon="home">Visit</a>
             </div>
         </footer>
     </body>

@@ -1,0 +1,8 @@
+<h2>Welcome to </h2>
+<h1>Perfect Present</h1>
+<form name="form" class="signin-form" ng-submit="submit()" novalidate>
+    <input class="k-textbox" type="text" placeholder="Username" ng-model="signin.username" ng-class="{submitted: submitted}" required />
+    <input class="k-textbox" type="password" placeholder="password" ng-model="signin.password" ng-class="{submitted: submitted}" required />
+    <input class="k-button" type="submit" value="Sign In" />
+    <span>{{signin.username}}</span>
+</form>
